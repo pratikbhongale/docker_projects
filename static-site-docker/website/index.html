@@ -3,13 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Docker static site</title>
+    <title>Pratik Bhongale | DevOps Engineer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <h1> Hello from Docker compose!!</h1>
-    <button onclick="showMessage()">Click Me</button>
+
+    <nav id="navbar">
+        <div class="logo">PRATIK.<span>DEVOPS</span></div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="badge">Available for Roles in Pune & Remote</span>
+            <h1>Pratik Bhongale</h1>
+            <p class="subtitle">DevOps Engineer & Infrastructure Automator</p>
+            <p class="hero-desc">B.E. Computer Science graduate (2025) specializing in <strong>AWS, Terraform, and Kubernetes</strong>. I build CI/CD pipelines that optimize deployments by up to <strong>55%</strong>.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn-primary">View Infrastructure Projects</a>
+                <a href="mailto:pratikbhongale01@gmail.com" class="btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">Technical Arsenal</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3><i class="fas fa-cloud"></i> Cloud & IaC</h3>
+                <p>AWS (EC2, S3, IAM, VPC), Terraform, Ansible</p>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-container-storage"></i> Containerization</h3>
+                <p>Docker, Kubernetes (Kind), YAML, GHCR</p>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-code-branch"></i> CI/CD & Automation</h3>
+                <p>GitHub Actions, Jenkins, Bash Scripting, Python</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Featured Work</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-tag">Terraform + AWS</div>
+                <h3>IaC: AWS Cloud Provisioning</h3>
+                <p>Architected scalable AWS EC2 environments with automated Nginx provisioning via Bash, ensuring 100% deployment idempotency.</p>
+                <div class="project-links">
+                    <a href="#"><i class="fab fa-github"></i> Source Code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-tag">K8s + GitHub Actions</div>
+                <h3>Scalable CI/CD Pipeline</h3>
+                <p>Engineered an automated pipeline for Next.js microservices using Kubernetes (Kind) and multi-stage Docker builds to minimize image size.</p>
+                <div class="project-links">
+                    <a href="#"><i class="fab fa-github"></i> Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Let's Build Something Scalable</h2>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/your-profile"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/your-github"><i class="fab fa-github"></i></a>
+            <a href="mailto:pratikbhongale01@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </section>
+
     <script src="script.js"></script>
-    
 </body>
 </html>
